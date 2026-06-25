@@ -1,62 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
-</head>
-<body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+  </head>
+  <body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
     <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <p>
+      <strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os
+      tópicos que mais entendeu. Estes apenas são sugestões.
+    </p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+      <li><a href="#surgimento">História dos computadores</a></li>
+      <li>
+        <a href="#clients">O que são <i>Clients</i>?</a>
+      </li>
+      <li>
+        <a href="#servers">O que são <i>Servers</i>?</a>
+      </li>
+      <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+      <li>
+        <a href="#listas"
+          >Entendendo a diferença entre listas ordenadas e não ordenadas</a
+        >
+      </li>
+      <li><a href="#referencias">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="surgimento">História dos computadores</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+      Os <strong>computadores</strong> surgiram a partir de máquinas de cálculo 
+      como o <i>ábaco</i>. Com o tempo, evoluíram para sistemas cada vez mais 
+      <u>complexos</u>. Um marco importante foi o ENIAC, considerado o primeiro 
+      computador eletrônico de uso geral.
+    </p>
+    <p>
+      <blockquote>
+        "O ENIAC podia realizar 5.000 operações por segundo, um feito incrível 
+        para a época."
+      </blockquote>
+    </p>
+    <p>
+      Saiba mais em <a href="https://www.computerhistory.org/" target="_blank">Computer History Museum</a>.
+    </p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+      Um <strong>Client</strong> é o dispositivo ou programa que <i>solicita</i> 
+      informações a um servidor. Exemplos: navegadores como <mark>Google Chrome</mark> 
+      ou <mark>Firefox</mark>.
+    </p>
+    <p>
+      <abbr title="HyperText Transfer Protocol">HTTP</abbr> é o protocolo usado 
+      para essa comunicação.
+    </p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+      O <strong>Servidor</strong> é responsável por <u>responder</u> às requisições 
+      dos clientes. Ele pode armazenar páginas, bancos de dados e arquivos.
+    </p>
+    <p>
+      Exemplo: um servidor web como <i>Apache</i> ou <i>Nginx</i>.
+    </p>
+    <p>
+      Veja mais em <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/What_is_a_web_server" target="_blank">MDN Web Docs</a>.
+    </p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+      Um documento HTML começa com a declaração <strong>&lt;!DOCTYPE html&gt;</strong>. 
+      Em seguida, temos as tags principais:
+    </p>
+    <ol>
+      <li><strong>&lt;html&gt;</strong>: raiz do documento</li>
+      <li><strong>&lt;head&gt;</strong>: informações como título e metadados</li>
+      <li><strong>&lt;body&gt;</strong>: conteúdo visível da página</li>
+    </ol>
+    <p>
+      Exemplo de código:
+    </p>
+    <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+      &lt;head&gt;
+        &lt;title&gt;Minha Página&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+        &lt;h1&gt;Olá Mundo!&lt;/h1&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+
+    <h2 id="listas">
+      Entendendo a diferença entre listas ordenadas e não ordenadas
+    </h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+      Uma <strong>lista ordenada</strong> usa números:
+    </p>
+    <ol>
+      <li>Primeiro item</li>
+      <li>Segundo item</li>
+    </ol>
+
+    <p>
+      Já uma <strong>lista não ordenada</strong> usa marcadores:
+    </p>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+      <li>Item A</li>
+      <li>Item B</li>
     </ul>
 
-</body>
+
+    <h2 id="referencias">Links de referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <ul>
+      <li><a href="http://dio.me" target="_blank">DIO</a></li>
+      <li><a href="http://w3c.org" target="_blank">W3C</a></li>
+      <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Docs</a></li>
+    </ul>
+
+  </body>
 </html>
